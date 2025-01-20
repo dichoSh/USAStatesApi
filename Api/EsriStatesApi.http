@@ -1,0 +1,8 @@
+@EsriStatesApi_HostAddress = http://localhost:5001
+
+GET {{EsriStatesApi_HostAddress}}/usastates/
+Accept: application/json
+
+###
+GET {{EsriStatesApi_HostAddress}}/usastates/?statename=alabama
+Accept: application/json
